@@ -24,7 +24,7 @@ main
 
 # .common files
 .DS_Store
-.env
+.env.dev
 /public/build
 /public/hot
 /public/storage

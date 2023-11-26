@@ -21,11 +21,11 @@ type DBConfig struct {
 func initDBConfig(v *viper.Viper) {
 	Database = &DatabaseConfig{
 		MasterDB: DBConfig{
-			DBHost:     v.GetString("MASTER_DB_HOST"),
-			DBPort:     v.GetInt("MASTER_DB_PORT"),
-			DBDatabase: v.GetString("MASTER_DB_DATABASE"),
-			DBUsername: v.GetString("MASTER_DB_USERNAME"),
-			DBPassword: v.GetString("MASTER_DB_PASSWORD"),
+			DBHost:     v.GetString("DB_HOST"),
+			DBPort:     v.GetInt("DB_PORT"),
+			DBDatabase: v.GetString("DB_DATABASE"),
+			DBUsername: v.GetString("DB_USERNAME"),
+			DBPassword: v.GetString("DB_PASSWORD"),
 		},
 		SlaveDB: DBConfig{
 			DBHost:     v.GetString("SLAVE_DB_HOST"),
