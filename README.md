@@ -1,4 +1,4 @@
-# GoSpire: Effortless REST API Building with Go-Gin-GORM
+# GoSpire: Effortless REST API Building with Go-Gin-GORM (V1.0.0)
 This is a dynamic and efficient starter kit for constructing REST APIs in Go, featuring the splendid Gin framework, the GORM ORM powerhouse, and the robust PostgreSQL database. Experience API development like never before with a master-slave database architecture.
 
 ## Features
